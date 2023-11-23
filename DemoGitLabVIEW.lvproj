@@ -56,10 +56,12 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test My Singleton Module API.vi" Type="VI" URL="../Libraries/My Singleton Module/Test My Singleton Module API.vi"/>
 			<Item Name="Test My Cloneable Module API.vi" Type="VI" URL="../Libraries/My Cloneable Module/Test My Cloneable Module API.vi"/>
+			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="My Singleton Module.lvlib" Type="Library" URL="../Libraries/My Singleton Module/My Singleton Module.lvlib"/>
 			<Item Name="My Cloneable Module.lvlib" Type="Library" URL="../Libraries/My Cloneable Module/My Cloneable Module.lvlib"/>
+			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -158,6 +160,10 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Do Something Argument--cluster.ctl" Type="VI" URL="../Libraries/UI/Do Something Argument--cluster.ctl"/>
+			<Item Name="Do Something Else and Wait for Reply Argument--cluster.ctl" Type="VI" URL="../Libraries/UI/Do Something Else and Wait for Reply Argument--cluster.ctl"/>
+			<Item Name="Do Something Else and Wait (Reply Payload)--cluster.ctl" Type="VI" URL="../Libraries/UI/Do Something Else and Wait (Reply Payload)--cluster.ctl"/>
+			<Item Name="Do Something Else Argument--cluster.ctl" Type="VI" URL="../Libraries/UI/Do Something Else Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">
