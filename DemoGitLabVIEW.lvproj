@@ -160,10 +160,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Do Something Argument--cluster.ctl" Type="VI" URL="../Libraries/UI/Do Something Argument--cluster.ctl"/>
-			<Item Name="Do Something Else and Wait for Reply Argument--cluster.ctl" Type="VI" URL="../Libraries/UI/Do Something Else and Wait for Reply Argument--cluster.ctl"/>
-			<Item Name="Do Something Else and Wait (Reply Payload)--cluster.ctl" Type="VI" URL="../Libraries/UI/Do Something Else and Wait (Reply Payload)--cluster.ctl"/>
-			<Item Name="Do Something Else Argument--cluster.ctl" Type="VI" URL="../Libraries/UI/Do Something Else Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">
